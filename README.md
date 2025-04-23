@@ -14,9 +14,9 @@ Este repositorio contiene instrucciones para la evaluación sobre estructuras de
 Clase que representa a un libro con dos atributos: `name` (nombre del libro) y `year` (año de publicación), ambos de encapsulamiento privado. Incluye constructor con todos los argurmentos, getters, setters y el método `toString()`.
 
 #### 📂 `Controllers/LibroController.java`
-Clase que contiene la lógica para ordenar libros y buscar libros que incluye:
+Clase que contiene la lógica para ordenar libros y buscar libros; incluye:
 - `sortByXxxxx(Book[] libros)`
-- `searchByXxxxx(Book[] libros, Xxxxx xxxxxx)` los nombres a ser buscados deben ignorar mayusculas y minisculas.
+- `searchByXxxxx(Book[] libros, Xxxxx xxxxxx)`
 
 #### 📂 `Views/ViewConsole.java`
 Clase que se encarga de mostrar mensajes y arreglos de libros en consola. Incluye métodos para imprimir mensajes generales y el arreglo de libros.
@@ -30,7 +30,7 @@ Contiene el método `main()` que ejecuta el flujo de la prueba, usando las clase
 
 Sigue los pasos a continuación para completar el ejercicio de repaso. **No se debe modificar el arreglo predefinido de libros** en la clase `App`.
 
-Se debe ordenar el arreglo de libros por el atributo **NOMBRE** en orden **Descendente** (de la Z a la A) con el metodo **SELECCIÓN**. Además, se debe realizar una búsqueda binaria para encontrar un libro con un nombre específico, ignorando mayúsculas y minúsculas en la comparación tanto para el ordenamietno como la busqueda.
+Se debe ordenar el arreglo de libros por el atributo **name** en orden **Descendente** (de la Z a la A) con el metodo **SELECCIÓN**. Además, se debe realizar una búsqueda binaria para encontrar un libro con un nombre específico, ignorando mayúsculas y minúsculas en la comparación tanto para el ordenamietno como la busqueda.
 
 ```java
 // Método para ordenar libros por nombre en orden descendente
