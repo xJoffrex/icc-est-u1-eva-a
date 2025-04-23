@@ -1,3 +1,7 @@
+import Models.Book;
+import ViewConsole.ViewConsole;
+
+
 public class App {
     public static void main(String[] args) throws Exception {
 
@@ -33,6 +37,12 @@ public class App {
                 new Book("Deep Learning", 2016),
                 new Book("The Elements of Statistical Learning", 2001)
         };
+
+
+        ViewConsole mostrar = new ViewConsole();
+
+        mostrar.listaprint(books);
+        
 
     }
 }
